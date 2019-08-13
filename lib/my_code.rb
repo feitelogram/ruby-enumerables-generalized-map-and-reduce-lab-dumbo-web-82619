@@ -10,6 +10,7 @@ def map (source_array)
   new 
 end
 
+
 def reduce(source_array, starting_point = nil)
   n = source_array.length
   if starting_point
@@ -25,3 +26,4 @@ def reduce(source_array, starting_point = nil)
   end
   value 
 end
+
